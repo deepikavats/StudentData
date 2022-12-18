@@ -17,6 +17,7 @@ public class StudentService {
 
     public Student getStudentData(String number){
         Student student = repository.findByRollNumber(number);
+        System.out.println(student);
         return student;
     }
 
