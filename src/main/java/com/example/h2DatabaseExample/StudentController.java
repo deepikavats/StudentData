@@ -32,14 +32,14 @@ public class StudentController {
     return ResponseEntity.ok(student);
     }
 
+    /*
     @PostMapping(path = "/updateStudent", produces = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<Student> updateStudent(@RequestParam (name = "rollNumber") @NotNull String rollNumber){
         Student student = service.updateStudentData(rollNumber);
         return ResponseEntity.ok(student);
     }
 
-
-
+*/
 
 
 }

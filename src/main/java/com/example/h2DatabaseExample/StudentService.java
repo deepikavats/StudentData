@@ -29,4 +29,13 @@ public class StudentService {
     }
 
      */
+
+    public boolean studentmarks(String marks){
+        int marksint = Integer.valueOf(marks);
+        boolean mark = false;
+        if(marksint > 90){
+            mark = true;
+        }
+        return true;
+    }
 }

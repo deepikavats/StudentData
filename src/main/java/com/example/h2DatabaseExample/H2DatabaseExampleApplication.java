@@ -8,6 +8,7 @@ public class H2DatabaseExampleApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(H2DatabaseExampleApplication.class, args);
+		System.out.println("Hello Deepika");
 	}
 
 }
